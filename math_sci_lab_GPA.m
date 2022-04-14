@@ -1,3 +1,4 @@
+%
 function [letterGrade_lab,creditHr_lab]=math_sci_lab_GPA(courseName,courseNumber,letterGrade,creditHr)
 
     switch courseName
@@ -20,7 +21,7 @@ function [letterGrade_lab,creditHr_lab]=math_sci_lab_GPA(courseName,courseNumber
                         creditHr_lab=creditHr;
                 end
         otherwise
-            letterGrade_lab="A";
+            letterGrade_lab="A";%function will return zero if the course does not belong to the math, physics and chemistry category and their cooresponding numbers.
             creditHr_lab=0;
 
     end
