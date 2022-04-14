@@ -1,3 +1,4 @@
+%The function below will get a letter grade and return a number.
 function num = LtN(letter)
 num=0;
 for k=1:length(letter)
