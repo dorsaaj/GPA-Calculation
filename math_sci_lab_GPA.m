@@ -1,3 +1,4 @@
+%the function below will get the course name,its corresponding number, the number of credir hour and the letter grade recieved for that course from the user and using the "switch"command it will compare the information to see if the information matches the course name and its corresponding numbers;then, it will return the course letter grade and the credit hour.
 function [letterGrade_lab,creditHr_lab]=math_sci_lab_GPA(courseName,courseNumber,letterGrade,creditHr)
 
     switch courseName
